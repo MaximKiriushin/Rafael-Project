@@ -1,0 +1,49 @@
+.content h1{
+    color: white;
+    text-align: center;
+  }
+  
+  .searchBox {
+    position:relative;
+    top: 20px;
+    text-align: center;
+  }
+  
+  .searchBox input {
+    height: 30px;
+    width: 300px;
+    border:6px solid #b9bdbd;
+    border-radius: 15px;
+    padding-right: 10px;
+    outline: none;
+    padding-right: 35px;
+  }
+  
+  .searchBox img{
+    position:relative;
+    right: 38px;
+    top: 8px;
+    height: 25px;
+    width: 25px;
+  }
+  
+  
+  .attackNamesBox {
+    position:relative;
+    top: 60px;
+    padding: 30px;
+    margin:0px auto;
+    height: 500px;
+    width:300px;
+    overflow:auto;
+    border:6px solid #bfc1c2;
+    border-radius: 15px;
+    padding:2%;
+  }
+  
+  .attacks{
+    position:relative;
+    overflow:auto;
+    color: white;
+  }
+  

@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "react-redux": "^7.2.3"
+  }
+}

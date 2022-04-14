@@ -1,0 +1,113 @@
+.chatBotBox{
+  position:relative;
+  top: 60px;
+  margin:0px auto;
+  height: 600px;
+  width: 800px;
+  border:6px solid #bfc1c2;
+  overflow: hidden;
+  border-radius: 15px;
+}
+.upperSide{
+  background-color: rgb(144, 144, 144);  
+  height: 65px;
+}
+
+.upperSide h3{
+  width: fit-content;
+  display: flex;
+  top: auto;
+}
+
+.upperSide .botLogo{
+  height: 30px;
+  width: 30px;
+}
+
+.upperSide .botName{
+  text-align: left;
+  margin: auto;
+  padding-top: 15px;
+  flex: 1 1 150px;
+  font-size: 20px;
+}
+
+.upperSide .botName .botNameAndLogo{
+  float: left;
+  margin-right: 500px;
+}
+
+.upperSide .botName .Online h3{
+  font-size: 20px;
+  margin: 0;
+  padding-top: 8px;
+  color: green;
+}
+
+.upperSide .botName .Offline h3{  
+  font-size: 20px;
+  margin: 0;
+  padding-top: 8px;
+  color: red;
+}
+
+.sendOptions{
+  position: absolute;
+  bottom: 0;
+  margin-top: 20px;
+  width: 100%;
+}
+.textPadding{
+  width: 596px;
+  padding: 0;
+  height: 20px;
+  outline: none;
+}
+
+.buttonClass{
+  position:absolute;
+  right: 0;
+  width: 25%;
+  height: 24px;
+  background-color: white;
+  border: none;
+  outline: none;
+}
+
+.messgesSend{
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 85%;
+  color: rgb(195, 195, 195);
+}
+
+.sendFromUser{
+  text-align: right;
+  padding-right: 10px;
+}
+
+.sendFromServer{
+  text-align: left;
+  padding-left: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: rgb(85, 85, 85); 
+}
+
+.help{
+  position: absolute;
+  bottom: 8rem;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  color: white;
+}
